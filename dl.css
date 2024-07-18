@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    width: 100%;
+    height: 6000px;
 }
 
 header {
@@ -10,8 +11,7 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
-
-    
+    padding-top: 100px;   
 }
 
 nav { 
@@ -40,28 +40,6 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #575757;
-}
-
-main {
-    padding: 2em;
-}
-
-section {
-    background-color: white;
-    margin: 1em 0;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
 
@@ -159,4 +137,144 @@ color: orange;
 }
 .login a:hover{
     /* background-color: orangered; */
+}
+.typing {
+    font-family: sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: .15em solid orange; */
+    animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+    font-size: 70px;
+    
+    align-items: center;
+}
+
+/* @keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+} */
+.deep{
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* background: linear-gradient(red 40% , blue); */
+}
+.deep p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.deep img{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+.deep2{
+    text-align: center;
+}
+.deep2 h1{
+    font-size: 3rem;
+}
+.deep2 p{
+    font-size: 1.3rem;
+}
+.list{
+    font-size: 1.3rem;
+    margin-left: 600px;
+}
+.how{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.how1{
+    margin-left:600px;
+    margin-top: -350px;
+}
+.how1 h1{
+    font-size: 3rem;
+}
+.how1 p{
+    font-size: 1.3rem;
+}
+.components{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 2rem;  
+}
+.photo{
+    text-align: center;
+}
+.layer1{
+    margin-left: 100px;
+}
+.layer1 p{
+    font-size: 1.3rem;
+}
+.layer2{
+    margin-left: 100px;
+}
+.layer2 p{
+    font-size: 1.3rem;
+}
+.layer3{
+    margin-left: 100px;
+}
+.layer3 p{
+    font-size: 1.3rem;
+}
+.context{
+    text-align: center;
+    font-size: 2rem;  
+    margin-top: 50px;
+}
+.context p{
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+.manual{
+    margin-top: 50px;
+    font-size: 1.2rem;
+    margin-left: 200px;
+}
+.photo2{
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+.algorithms{
+    margin-top: 100px;
+}
+.algorithms h1{
+    text-align: center;
+    font-size: 4rem;  
+    margin-top: 50px;
+}
+.algorithms p{
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+.photo3{
+    text-align: center;
+}
+.alg1{
+    margin-left: 100px;
+}
+.alg1 p{
+    font-size: 1.3rem;
+}
+.alphoto1{
+    margin-left: 950px;
+    margin-top: -300px;
+}
+.alg2 p{
+    font-size: 1.3rem;
+}
+.alg2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.hari{
+    text-align: center; 
+    margin-top: 100px;
 }
